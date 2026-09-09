@@ -7,15 +7,16 @@ namespace Learning
 {
     class Program
     {
+        public enum PlaneType
+        {
+            NarrowBody = 1,
+            WideBody = 2
+
+        }
         static void Main(string[] args)
         {
-            var FlightDispatcher = new FlightDispatcher();
-            var THY737 = new Aircraft();
-
-            THY737.TailNumber = "TC-JGL";
-            THY737.Model = "Boeing 737-300";
-
-            FlightDispatcher.printManifest(THY737);
+            var planeId = console.RegisterAs<int>("planeId:");
+             Console.WriteLine((PlaneType)planeId);
         }
     }
 }

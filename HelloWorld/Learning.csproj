@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Homeworks\ConsoleHelper\console.cs" />
     <Compile Include="Homeworks\DataPackValidator\PacketValidator.cs" />
     <Compile Include="Homeworks\IATAFlightDispatchSystem\Aircraft.cs" />
     <Compile Include="Homeworks\IATAFlightDispatchSystem\FlightDispatcher.cs" />
