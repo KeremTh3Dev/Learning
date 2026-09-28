@@ -1,22 +1,19 @@
-﻿
-using Learning.Homeworks;
-using Learning.Homeworks.IATAFlightDispatchSystem;
-using System;
+﻿using System;
 
-namespace Learning
+namespace Learning.Homeworks.Null
 {
-    class Program
+    public enum ShippingMethod
     {
-        public enum PlaneType
-        {
-            NarrowBody = 1,
-            WideBody = 2
-
-        }
+        RegularAirMail = 1,
+        RegisteredAirMail = 2,
+        Express = 3
+    }
+    class program
+    {
         static void Main(string[] args)
         {
-            var planeId = console.RegisterAs<int>("planeId:");
-             Console.WriteLine((PlaneType)planeId);
+            var method = ShippingMethod.Express;
+            Console.WriteLine((int)method);
         }
     }
 }
