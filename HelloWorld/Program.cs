@@ -1,19 +1,23 @@
-﻿using System;
-
-namespace Learning.Homeworks.Null
+﻿using Learning.Learning;
+using System;
+using System.Threading;
+namespace Learning
 {
-    public enum ShippingMethod
+    class Program
     {
-        RegularAirMail = 1,
-        RegisteredAirMail = 2,
-        Express = 3
-    }
-    class program
-    {
+       
         static void Main(string[] args)
         {
-            var method = ShippingMethod.Express;
-            Console.WriteLine((int)method);
+            while (true)
+            {
+                Thread.Sleep(1000);
+                EmergencySituations.randomEmergency();
+            }
         }
     }
 }
+
+
+
+
+

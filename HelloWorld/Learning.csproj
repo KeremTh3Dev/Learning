@@ -43,13 +43,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Homeworks\BeginnerExercises\Exercise1\CompareDigit.cs" />
+    <Compile Include="Homeworks\BeginnerExercises\Exercise1\ImageOrientation.cs" />
+    <Compile Include="Homeworks\BeginnerExercises\Exercise1\SpeedCamera.cs" />
+    <Compile Include="Homeworks\BeginnerExercises\Exercise2\CalculateFactorial.cs" />
+    <Compile Include="Homeworks\BeginnerExercises\Exercise2\CalculateRemainder.cs" />
+    <Compile Include="Homeworks\BeginnerExercises\Exercise2\ConsoleApp1.cs" />
+    <Compile Include="Homeworks\BeginnerExercises\Exercise2\Lottery.cs" />
     <Compile Include="Homeworks\ConsoleHelper\console.cs" />
     <Compile Include="Homeworks\DataPackValidator\PacketValidator.cs" />
     <Compile Include="Homeworks\IATAFlightDispatchSystem\Aircraft.cs" />
     <Compile Include="Homeworks\IATAFlightDispatchSystem\FlightDispatcher.cs" />
     <Compile Include="Homeworks\SmartSecurity\SecurityProfile.cs" />
+    <Compile Include="Homeworks\BeginnerExercises\Exercise1\DigitController.cs" />
     <Compile Include="Learning\Calculator.cs" />
     <Compile Include="Learning\Converter.cs" />
+    <Compile Include="Learning\EmergencySituations.cs" />
     <Compile Include="Learning\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
